@@ -1,0 +1,14 @@
+group 'com.massivedisaster.java'
+version '1.0'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group:'io.reactivex', name:'rxjava', version:'1.0.16'
+}
